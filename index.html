@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pastbook.com - Competitive Analysis & Growth Opportunities</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="presentation-container">
         <!-- Floating background shapes -->
@@ -21,9 +23,15 @@
         <div class="slide active" data-slide="1">
             <div class="slide-content title-slide">
                 <div class="logo-container">
-                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYGBgYHBwYJCgkKCQoJCgkJCQoJCgkJCQkJCgkJCgkJCQkJCgkJCgkJCQkJCgkJCQkJCgkJCgkJCgkJCgkAAYGBgYGBgYHBwYJCgkKCQoJCgkJCQoJCgkJCQkJCgkJCgkJCQkJCgkJCgkJCQkJCgkJCgkJCgkJCgkJCgkJCgkJ/8AABAAAABAAAAAAAAD/2wBDAAYGBgYGBgYHBwYJCgkKCQoJCgkJCQoJCgkJCQkJCgkJCgkJCQkJCgkJCQkJCQkJCgkJCgkJCgkJCgkJCgkJCgkJ/8QAHwAAAwADAQEBAQAAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNER0ZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD8" alt="Pastbook Logo" class="main-logo">
+                    <!-- <svg width="146" height="34" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                        <path
+                            d="m139.9.7.4-.7.4.7c.9 1.5 2.2 2.8 3.7 3.7l.7.4-.7.4c-1.5.9-2.8 2.2-3.7 3.7l-.4.7-.4-.7c-.9-1.5-2.2-2.8-3.7-3.7l-.7-.4.7-.4c1.5-.9 2.8-2.2 3.7-3.7ZM138.2 13.9l.3-.5.3.5c.6 1.1 1.5 1.9 2.6 2.6l.5.3-.5.3c-1.1.6-1.9 1.5-2.6 2.6l-.3.5-.3-.5c-.6-1.1-1.5-1.9-2.6-2.6l-.5-.3.5-.3c1.1-.7 2-1.6 2.6-2.6ZM129 5.1l.2-.4.2.4c.5.9 1.2 1.6 2.1 2.1l.4.2-.4.2c-.9.5-1.6 1.2-2.1 2.1l-.2.4-.2-.4c-.5-.9-1.2-1.6-2.1-2.1l-.4-.2.4-.2c.8-.5 1.5-1.2 2.1-2.1ZM40.1 19.5c1.3-.1 2.8.6 3.7 1.6l.2.2 2-2.2-.2-.2c-1.2-1.5-3.5-2.5-5.8-2.4-3.5.2-5.7 2.1-5.6 4.9.1 2.9 2.8 3.8 5.2 4.5l.2.1c1.6.5 3 1 3.1 2.3.1 1-.9 1.8-2.5 1.9-1.6.1-3.4-.7-4.3-1.8l-.2-.3-2 2.3.2.2c1.5 1.8 4 2.7 6.6 2.6 3.6-.2 5.9-2.2 5.8-5-.2-3.2-2.6-4.1-5.3-5.1l-.3-.1c-1.6-.6-2.8-1-2.8-2-.1-.8.7-1.4 2-1.5ZM124.1 25.4c-.5-.7-.7-.9-.9-1.1.1-.1.5-.5.9-1l6-6.2h-4.2c-.3 0-.5.1-.6.3l-5 5.8V12.3h-2.9c-.4.1-.7.5-.7.9v19.6h3.6v-6.9l4.3 5.7c.7 1 .9 1.2 1.9 1.2h3.5l-5.9-7.4ZM105.9 16.6c-4.9 0-8.5 3.6-8.5 8.3 0 4.7 3.7 8.3 8.5 8.3 4.9 0 8.6-3.6 8.6-8.3-.1-4.7-3.7-8.3-8.6-8.3Zm0 13.4c-2.8 0-4.9-2.1-4.9-5.1 0-3 2.1-5.1 4.9-5.1 2.9 0 4.9 2.1 4.9 5.1 0 3-2.1 5.1-4.9 5.1ZM87.1 16.6c-4.9 0-8.5 3.6-8.5 8.3 0 4.7 3.7 8.3 8.5 8.3 4.9 0 8.6-3.6 8.6-8.3 0-4.7-3.7-8.3-8.6-8.3Zm0 13.4c-2.8 0-4.9-2.1-4.9-5.1 0-3 2.1-5.1 4.9-5.1 2.9 0 4.9 2.1 4.9 5.1.1 3-2 5.1-4.9 5.1ZM7.9 10.8H1.1s-1.1-.2-1.1.9v21.2h3.5v-8.1h4.3c5.2 0 8.1-2.5 8.1-6.9.1-4.5-2.9-7.1-8-7.1Zm.5 10.7H3.6v-7.9h4.8c2.5 0 3.9 1.4 3.9 4 0 2.5-1.4 3.9-3.9 3.9ZM73.2 22c1.6-.9 2.5-2.4 2.5-4.2 0-3.5-2.5-5.5-6.9-5.5h-7.1v20.5h7.5c4.6 0 7.5-2.3 7.5-5.8 0-2.2-1.3-4-3.5-5Zm-7.8-6.7h3.3c2.3 0 3.4 1 3.4 2.9 0 1.8-1.3 2.9-3.4 2.9h-3.3v-5.8Zm3.4 14.6h-3.4v-6.2h3.8c2.3 0 3.8 1.2 3.8 3.1 0 2-1.4 3.1-4.2 3.1ZM56.9 29.1l-.3.3c-.5.5-1.2.7-1.7.7-1.4 0-2.1-.8-2.1-2.5v-7.4h4.7V17h-4.7v-4.7h-2.9c-.4.1-.7.5-.7.9v14.6c0 3.4 2 5.4 5.3 5.4 1.3 0 2.5-.4 3.5-1.2l.2-.2-1.3-2.7ZM31.6 28.4V16.9h-2.4c-.4.1-.7.5-.7.9v.8c-1.4-1.4-3.2-2.1-5.2-2.1-4.4 0-7.8 3.6-7.8 8.3 0 4.7 3.3 8.3 7.8 8.3 2 0 3.8-.8 5.2-2.1v1.2c0 .3.2.5.5.5h2.6v-4.3Zm-8 1.6c-2.8 0-4.8-2.1-4.8-5.1 0-3 2-5.1 4.8-5.1 2.4 0 4.8 1.6 4.8 5.1 0 2.6-1.5 5.1-4.8 5.1Z"
+                            fill="#6430FF" />
+                    </svg> -->
+
+                    <img src="./pastbook.png" alt="pastbook-logo" srcset="">
                 </div>
-                <h1 class="main-title">🎨 Pastbook.com</h1>
                 <h2 class="subtitle">Competitive Analysis & Growth Opportunities 📊</h2>
                 <div class="title-accent"></div>
                 <div class="floating-decorations">
@@ -70,7 +78,7 @@
         <!-- Slide 3: Current Market Position -->
         <div class="slide" data-slide="3">
             <div class="slide-content">
-                <h2 class="slide-title">🏆 Current Market Position</h2>
+                <h2 class="slide-title">🏆 Current Market Position (Monthly Visit)</h2>
                 <div class="competitor-cards">
                     <div class="competitor-card leader">
                         <div class="competitor-rank">#1</div>
@@ -602,8 +610,14 @@
                 </div>
                 <div class="final-logos">
                     <div class="logo-section">
-                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYGBgYHBwYJCgkKCQoJCgkJCQoJCgkJCQkJCgkJCgkJCQkJCgkJCgkJCQkJCgkJCQkJCgkJCgkJCgkJCgkAAYGBgYGBgYHBwYJCgkKCQoJCgkJCQoJCgkJCQkJCgkJCgkJCQkJCgkJCgkJCQkJCgkJCgkJCgkJCgkJCgkJCgkJ/8AABAAAABAAAAAAAAD/2wBDAAYGBgYGBgYHBwYJCgkKCQoJCgkJCQoJCgkJCQkJCgkJCgkJCQkJCgkJCQkJCQkJCgkJCgkJCgkJCgkJCgkJCgkJ/8QAHwAAAwADAQEBAQAAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNER0ZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD8" alt="Pastbook Logo" class="final-logo">
-                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwsKCggKCgkKCgsLDAsLCwsLDAsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsABwYGCgkKDQkJDRsLCwsLGwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCws/8AAEQgAKwBcAwEiAAIRAQMRAf/EABwAAAMBAQEBAQEAAAAAAAAAAAAABQYHCAQDAQL/8QANBAAAgECBAMGBAUEAwAAAAAAAAECAwQRITFBUWEFcYGRobHBE+HR8QYUI0Ki4fEFJJKiwsL/" alt="Second Logo" class="final-logo">
+                        <svg width="146" height="34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m139.9.7.4-.7.4.7c.9 1.5 2.2 2.8 3.7 3.7l.7.4-.7.4c-1.5.9-2.8 2.2-3.7 3.7l-.4.7-.4-.7c-.9-1.5-2.2-2.8-3.7-3.7l-.7-.4.7-.4c1.5-.9 2.8-2.2 3.7-3.7ZM138.2 13.9l.3-.5.3.5c.6 1.1 1.5 1.9 2.6 2.6l.5.3-.5.3c-1.1.6-1.9 1.5-2.6 2.6l-.3.5-.3-.5c-.6-1.1-1.5-1.9-2.6-2.6l-.5-.3.5-.3c1.1-.7 2-1.6 2.6-2.6ZM129 5.1l.2-.4.2.4c.5.9 1.2 1.6 2.1 2.1l.4.2-.4.2c-.9.5-1.6 1.2-2.1 2.1l-.2.4-.2-.4c-.5-.9-1.2-1.6-2.1-2.1l-.4-.2.4-.2c.8-.5 1.5-1.2 2.1-2.1ZM40.1 19.5c1.3-.1 2.8.6 3.7 1.6l.2.2 2-2.2-.2-.2c-1.2-1.5-3.5-2.5-5.8-2.4-3.5.2-5.7 2.1-5.6 4.9.1 2.9 2.8 3.8 5.2 4.5l.2.1c1.6.5 3 1 3.1 2.3.1 1-.9 1.8-2.5 1.9-1.6.1-3.4-.7-4.3-1.8l-.2-.3-2 2.3.2.2c1.5 1.8 4 2.7 6.6 2.6 3.6-.2 5.9-2.2 5.8-5-.2-3.2-2.6-4.1-5.3-5.1l-.3-.1c-1.6-.6-2.8-1-2.8-2-.1-.8.7-1.4 2-1.5ZM124.1 25.4c-.5-.7-.7-.9-.9-1.1.1-.1.5-.5.9-1l6-6.2h-4.2c-.3 0-.5.1-.6.3l-5 5.8V12.3h-2.9c-.4.1-.7.5-.7.9v19.6h3.6v-6.9l4.3 5.7c.7 1 .9 1.2 1.9 1.2h3.5l-5.9-7.4ZM105.9 16.6c-4.9 0-8.5 3.6-8.5 8.3 0 4.7 3.7 8.3 8.5 8.3 4.9 0 8.6-3.6 8.6-8.3-.1-4.7-3.7-8.3-8.6-8.3Zm0 13.4c-2.8 0-4.9-2.1-4.9-5.1 0-3 2.1-5.1 4.9-5.1 2.9 0 4.9 2.1 4.9 5.1 0 3-2.1 5.1-4.9 5.1ZM87.1 16.6c-4.9 0-8.5 3.6-8.5 8.3 0 4.7 3.7 8.3 8.5 8.3 4.9 0 8.6-3.6 8.6-8.3 0-4.7-3.7-8.3-8.6-8.3Zm0 13.4c-2.8 0-4.9-2.1-4.9-5.1 0-3 2.1-5.1 4.9-5.1 2.9 0 4.9 2.1 4.9 5.1.1 3-2 5.1-4.9 5.1ZM7.9 10.8H1.1s-1.1-.2-1.1.9v21.2h3.5v-8.1h4.3c5.2 0 8.1-2.5 8.1-6.9.1-4.5-2.9-7.1-8-7.1Zm.5 10.7H3.6v-7.9h4.8c2.5 0 3.9 1.4 3.9 4 0 2.5-1.4 3.9-3.9 3.9ZM73.2 22c1.6-.9 2.5-2.4 2.5-4.2 0-3.5-2.5-5.5-6.9-5.5h-7.1v20.5h7.5c4.6 0 7.5-2.3 7.5-5.8 0-2.2-1.3-4-3.5-5Zm-7.8-6.7h3.3c2.3 0 3.4 1 3.4 2.9 0 1.8-1.3 2.9-3.4 2.9h-3.3v-5.8Zm3.4 14.6h-3.4v-6.2h3.8c2.3 0 3.8 1.2 3.8 3.1 0 2-1.4 3.1-4.2 3.1ZM56.9 29.1l-.3.3c-.5.5-1.2.7-1.7.7-1.4 0-2.1-.8-2.1-2.5v-7.4h4.7V17h-4.7v-4.7h-2.9c-.4.1-.7.5-.7.9v14.6c0 3.4 2 5.4 5.3 5.4 1.3 0 2.5-.4 3.5-1.2l.2-.2-1.3-2.7ZM31.6 28.4V16.9h-2.4c-.4.1-.7.5-.7.9v.8c-1.4-1.4-3.2-2.1-5.2-2.1-4.4 0-7.8 3.6-7.8 8.3 0 4.7 3.3 8.3 7.8 8.3 2 0 3.8-.8 5.2-2.1v1.2c0 .3.2.5.5.5h2.6v-4.3Zm-8 1.6c-2.8 0-4.8-2.1-4.8-5.1 0-3 2-5.1 4.8-5.1 2.4 0 4.8 1.6 4.8 5.1 0 2.6-1.5 5.1-4.8 5.1Z"
+                                fill="#6430FF" />
+                        </svg> 
+                        <img
+                        src="https://moretasks.com/images/finalogo.png"  style="height: 30px; margin-top: 4px;"
+                            alt="Second Logo" class="final-logo">
                     </div>
                     <div class="partnership-text">
                         <p>Ready to transform Pastbook's digital presence and unlock growth potential! 🚀</p>
@@ -620,11 +634,11 @@
                 </svg>
                 Previous
             </button>
-            
+
             <div class="slide-counter">
                 <span id="currentSlide">1</span> / <span id="totalSlides">13</span>
             </div>
-            
+
             <button class="nav-btn next-btn" id="nextBtn">
                 Next
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -636,4 +650,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
