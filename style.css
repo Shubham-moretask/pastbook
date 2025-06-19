@@ -1229,6 +1229,7 @@ a:hover {
   display: flex;
   align-items: flex-start;
   gap: var(--space-12);
+  color:white
 }
 
 .point-card:hover {
@@ -1323,6 +1324,7 @@ a:hover {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-lg);
   margin-top: var(--space-12);
+  color:black
 }
 
 .competitor-visits {
@@ -1414,6 +1416,8 @@ a:hover {
   font-size: 2rem;
   font-weight: var(--font-weight-bold);
   margin-bottom: var(--space-4);
+  color:black
+
 }
 
 .metric-label {
@@ -1489,6 +1493,10 @@ a:hover {
   color: #191919;
 }
 
+*{
+  color:black
+}
+
 /* SEO Cards */
 .seo-cards {
   display: grid;
@@ -1523,6 +1531,7 @@ a:hover {
   font-size: 1.8rem;
   font-weight: var(--font-weight-bold);
   margin-bottom: var(--space-4);
+  color:black
 }
 
 .seo-label {
@@ -1861,6 +1870,7 @@ a:hover {
 .weakness-content h4 {
   margin: 0 0 var(--space-4) 0;
   font-size: var(--font-size-base);
+  color:black
 }
 
 .weakness-content p {
@@ -2394,7 +2404,7 @@ a:hover {
 
 .phase-timeline {
   font-size: var(--font-size-xs);
-  padding: var(--space-4) var(--space-8);
+  padding: var(--space-4) var(--space-4);
   border-radius: var(--radius-full);
   background: var(--color-secondary);
   color: #191919;
@@ -2497,7 +2507,8 @@ a:hover {
   display: flex;
   align-items: center;
   gap: var(--space-8);
-  background: linear-gradient(135deg, var(--color-teal) 0%, var(--color-white) 0%, var(--color-purple) 60%);
+  /* background: linear-gradient(135deg, var(--color-teal) 0%, var(--color-white) 0%, var(--color-purple) 60%); */
+  background: #6430FF;
   color: white;
   border: none;
   padding: var(--space-8) var(--space-16);
@@ -2506,6 +2517,12 @@ a:hover {
   font-weight: var(--font-weight-medium);
   cursor: pointer;
   transition: all 0.3s ease;
+  
+}
+
+
+.text-info{
+  color:white
 }
 
 .nav-btn:hover {
