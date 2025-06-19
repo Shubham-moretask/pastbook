@@ -3,8 +3,7 @@
   --color-background: rgba(252, 252, 249, 1);
   --color-surface: rgba(255, 255, 253, 1);
   --color-text: rgba(19, 52, 59, 1);
-  /* --color-text-secondary: rgba(98, 108, 113, 1); */
-  /* --color-text-secondary: #191919; */
+
   --color-text-secondary:  #191919;
 
 
@@ -947,8 +946,7 @@ a:hover {
   height: 100vh;
   position: relative;
   overflow: hidden;
-  /* background: linear-gradient(135deg, var(--color-teal) 0%, var(--color-blue) 100%); */
-  /* background:#8943FF; */
+
   background: linear-gradient(135deg, #FFFFFF, #F5A5F5, #A26CF3);
 
 
@@ -1125,7 +1123,6 @@ a:hover {
 .title-accent {
   width: 100px;
   height: 4px;
-  /* background: linear-gradient(90deg, var(--color-teal) 0%, var(--color-blue) 100%); */
   background: #6430FF;
   margin: 0 auto;
   border-radius: var(--radius-full);
@@ -2330,18 +2327,6 @@ a:hover {
   position: relative;
 }
 
-/* .affiliate-launch::after {
-  content: 'Updated!';
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  background: var(--color-teal);
-  color: white;
-  font-size: var(--font-size-xs);
-  padding: var(--space-4) var(--space-8);
-  border-radius: var(--radius-full);
-  animation: pulse 2s infinite;
-} */
 
 @keyframes pulse {
   0% {
@@ -2505,7 +2490,6 @@ a:hover {
   display: flex;
   align-items: center;
   gap: var(--space-8);
-  /* background: linear-gradient(135deg, var(--color-teal) 0%, var(--color-white) 0%, var(--color-purple) 60%); */
   background: #6430FF;
   color: white;
   border: none;
