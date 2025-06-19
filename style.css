@@ -1493,9 +1493,7 @@ a:hover {
   color: #191919;
 }
 
-*{
-  color:black
-}
+
 
 /* SEO Cards */
 .seo-cards {
@@ -2523,6 +2521,10 @@ a:hover {
 
 .text-info{
   color:white
+}
+
+.header-text{
+  color:#191919
 }
 
 .nav-btn:hover {
